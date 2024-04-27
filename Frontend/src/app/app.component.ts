@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(public http:HttpClient){
   }
 
-  baseUrl="http://13.235.80.153:8080/calculatorui/";
+  baseUrl="http://localhost:8080/";
   num1=0;
   num2=0;
   result=0;
