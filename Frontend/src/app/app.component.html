@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="num">
+        Num1:<input type="number" [(ngModel)]="num1"><br>
+    </div>
+    <div class="num">
+        Num2:<input type="number" [(ngModel)]="num2"><br>
+    </div>
+    <div class="button">
+        <button (click)="sum()">+</button>
+        <button (click)="sub()">-</button>
+        <button (click)="mul()">*</button>
+        <button (click)="div()">/</button>
+        <button (click)="mod()">%</button><br>
+    </div>
+    <div class="result">
+        Result:{{result}}
+    </div>
+
+
+</body>
+</html>
