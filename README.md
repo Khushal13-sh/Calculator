@@ -1,3 +1,5 @@
+#Calculator
+
 Welcome to the Calculator Application! This project serves as a comprehensive exploration into the world of web development, focusing on frontend-backend communication and the seamless transfer of data. Built using HTML, CSS, TypeScript, Angular, and Spring Boot, this application provides a robust platform for performing basic arithmetic operations.
 
 Features:
